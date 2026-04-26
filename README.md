@@ -30,12 +30,16 @@ Durante el laboratorio, identifiqué una discrepancia en los identificadores (ID
 ### Configuración de Reglas en AWS WAF
 <img width="1088" height="535" alt="image" src="https://github.com/user-attachments/assets/cb853fd2-4f2f-47a5-9f8f-0c103b9aade4" />
 
+Para configurar el WAF y desarrollar evidencia del despliegue, se procedió a elaborar una regla personalizada que bloquee direcciones IP provenientes de Chile, puesto que era la opción más prática según mi país de origen, para más adelante mostrar resultados mediante dashboard del servicio WAF de Amazon, además de comprobar el codigo 403 de peticion no autorizada.
+
 ### Resolución de problemas con CloudShell y Amazon Q
 
 <img width="1056" height="866" alt="image" src="https://github.com/user-attachments/assets/b1aa41c5-502f-4032-93bd-3ac5c2a571c1" />
 <img width="1026" height="550" alt="image" src="https://github.com/user-attachments/assets/afed0de3-000f-4a87-a13e-77d5dfffe35f" />
 <img width="1003" height="398" alt="image" src="https://github.com/user-attachments/assets/3a2812d2-f5bc-4a66-b636-34ce74a61202" />
 <img width="973" height="521" alt="image" src="https://github.com/user-attachments/assets/592ac0c6-8de5-4a56-9d55-8b21eab3b1b8" />
+
+Durante el laboratorio ocurrió un problema en el cual el servicio WAF no lograba ser asociado al balanceador de carga de aplicaciones, por lo que se dió uso a "Amazon Q" y aplicar las soluciones específicas mediante Cloudshell como indicó la aplicación de IA. Esta comprobó que el ID del balanceador era diferente, respecto del que se encontraba configurado desde el panel de servicio de WAF.
 
 ### Asociación Final
 
@@ -45,6 +49,7 @@ Durante el laboratorio, identifiqué una discrepancia en los identificadores (ID
 <img width="1088" height="385" alt="image" src="https://github.com/user-attachments/assets/9c1883f0-04d1-4b95-94da-565c8497f6ea" />
 <img width="1088" height="616" alt="image" src="https://github.com/user-attachments/assets/e9e43169-880a-429d-abad-311530539369" />
 
+La evidencia muestra las peticiones aceptadas por parte de usuarios desde Rusia, por ejemplo, las peticiones bloqueadas y aceptadas por parte del servicio AWS WAF, a partir de la regla personalizada implementada.
 
 
 
