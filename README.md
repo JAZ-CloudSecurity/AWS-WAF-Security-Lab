@@ -26,6 +26,26 @@ Durante el laboratorio, identifiqué una discrepancia en los identificadores (ID
 * **Resultado:** Se logró la asociación exitosa del WAF tras rectificar los parámetros mediante CLI, demostrando capacidad de respuesta ante errores en entornos productivos.
 
 ## 📸 Evidencia del Laboratorio
-*(Aquí insertaremos las imágenes que tienes en tu Word para demostrar el paso a paso)*
+
+### Configuración de Reglas en AWS WAF
+<img width="1088" height="535" alt="image" src="https://github.com/user-attachments/assets/cb853fd2-4f2f-47a5-9f8f-0c103b9aade4" />
+
+### Resolución de problemas con CloudShell y Amazon Q
+
+<img width="1056" height="866" alt="image" src="https://github.com/user-attachments/assets/b1aa41c5-502f-4032-93bd-3ac5c2a571c1" />
+<img width="1026" height="550" alt="image" src="https://github.com/user-attachments/assets/afed0de3-000f-4a87-a13e-77d5dfffe35f" />
+<img width="1003" height="398" alt="image" src="https://github.com/user-attachments/assets/3a2812d2-f5bc-4a66-b636-34ce74a61202" />
+<img width="973" height="521" alt="image" src="https://github.com/user-attachments/assets/592ac0c6-8de5-4a56-9d55-8b21eab3b1b8" />
+
+### Asociación Final
+
+<img width="804" height="1071" alt="image" src="https://github.com/user-attachments/assets/c78501f8-c3aa-4eb7-afee-b40fabc5215e" />
+<img width="1088" height="479" alt="image" src="https://github.com/user-attachments/assets/29b6b42c-eb6c-4097-a32e-46a96497eb03" />
+<img width="1088" height="500" alt="image" src="https://github.com/user-attachments/assets/8d78448a-0ece-41c1-a85a-ca8fd40fc648" />
+<img width="1088" height="385" alt="image" src="https://github.com/user-attachments/assets/9c1883f0-04d1-4b95-94da-565c8497f6ea" />
+<img width="1088" height="616" alt="image" src="https://github.com/user-attachments/assets/e9e43169-880a-429d-abad-311530539369" />
+
+
+
 
 ---
